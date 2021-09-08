@@ -29,3 +29,8 @@ wget --no-check-certificate -O AutoReinstall.sh https://git.io/AutoReinstall.sh 
 * 重装后系统密码为：Pwd@Linux，安装后请尽快修改密码，Linux系统建议启用密钥登陆。
 * OpenVZ / LXC 架构系统不适用
 * 不适于甲骨文/ikoula等平台主机
+* 如果提示 curl: command not found ，那是因为没装 Curl
+
+ubuntu/debian 系统安装 Curl 方法: apt-get update -y && apt-get install curl -y
+centos 系统安装 Curl 方法: yum update -y && yum install curl -y
+安装好 curl 之后就能安装脚本了
