@@ -26,6 +26,6 @@ wget --no-check-certificate -O AutoReinstall.sh https://git.io/AutoReinstall.sh 
 
 ## 注意事项
 
-* 重装后系统密码均在脚本中有提供，安装后请尽快修改密码，Linux系统建议启用密钥登陆。
+* 重装后系统密码为：Pwd@Linux，安装后请尽快修改密码，Linux系统建议启用密钥登陆。
 * OpenVZ / LXC 架构系统不适用
 * 不适于甲骨文/ikoula等平台主机
